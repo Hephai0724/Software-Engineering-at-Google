@@ -75,7 +75,7 @@ When a novice is learning to program, the life span of the resulting code is usu
 
 We also find developers of short-lived code in common industry settings. Mobile apps often have a fairly short life span,[^6] and for better or worse, full rewrites are relatively common. Engineers at an early-stage startup might rightly choose to focus on immediate goals over long-term investments: the company might not live long enough to reap the benefits of an infrastructure investment that pays off slowly. A serial startup developer could very reasonably have 10 years of development experience and little or no experience maintaining any piece of software expected to exist for longer than a year or two.
 
-我们还在常见的行业环境中找到短期代码的开发人员。移动应用程序的生命周期通常很短，而且无论好坏，完全重写都是相对常见的。初创初期的工程师可能会正确地选择关注眼前目标而不是长期投资：公司可能活得不够长，无法从回报缓慢的基础设施投资中获益。一个连续工作多年的开发人员可能有10年的开发经验，并且鲜少或根本没有维护任何预期存在超过一年或两年的软件的经验。
+我们还在常见的行业环境中找到短期代码的开发人员。移动应用程序的生命周期通常很短，而且无论好坏，完全重写都是相对常见的。初创初期的工程师可能会正确地选择关注眼前目标而不是长期投资：公司可能活得不够长，无法从回报缓慢的基础设施投资中获益。一个在初创公司连续工作多年的开发人员可能有10年的开发经验，却鲜少或根本没有维护任何预期存在超过一年或两年的软件的经验。
 
 On the other end of the spectrum, some successful projects have an effectively unbounded life span: we can’t reasonably predict an endpoint for Google Search, the Linux kernel, or the Apache HTTP Server project. For most Google projects, we must assume that they will live indefinitely—we cannot predict when we won’t need to upgrade our dependencies, language versions, and so on. As their lifetimes grow, these long-lived projects *eventually* have a different feel to them than programming assignments or startup development.
 
@@ -83,7 +83,7 @@ On the other end of the spectrum, some successful projects have an effectively u
 
 Consider Figure 1-1, which demonstrates two software projects on opposite ends of this “expected life span” spectrum. For a programmer working on a task with an expected life span of hours, what types of maintenance are reasonable to expect? That is, if a new version of your OS comes out while you’re working on a Python script that will be executed one time, should you drop what you’re doing and upgrade? Of course not: the upgrade is not critical. But on the opposite end of the spectrum, Google Search being stuck on a version of our OS from the 1990s would be a clear problem.
 
-考虑图1-1，它演示了两个软件项目的“预期生命周期”的范围。对于从事预期生命周期为小时的任务的程序来说，什么类型的维护是合理的？也就是说，如果你正在编写一个只需执行一次的 Python 脚本，这时操作系统推出了新版本，你应该放下手头的工作去升级系统吗？当然不是：升级并不重要。但与之相反，如果谷歌搜索停留在20世纪90年代的操作系统版本上显然是一个问题。
+考虑图1-1，它演示了两个软件项目的“预期生命周期”的范围。对于从事预期生命周期为小时的任务的程序员来说，什么类型的维护是合理的？也就是说，如果你正在编写一个只需执行一次的 Python 脚本，这时操作系统推出了新版本，你应该放下手头的工作去升级系统吗？当然不是：升级并不重要。但与之相反，如果谷歌搜索停留在20世纪90年代的操作系统版本上显然是一个问题。
 
 > [^6]: Appcelerator, “[Nothing is Certain Except Death, Taxes and a Short Mobile App Lifespan](https://oreil.ly/pnT2_),” Axway Developer blog, December 6, 2012.
 >
@@ -117,7 +117,7 @@ Getting through not only that first big upgrade, but getting to the point at whi
 
 So, concretely, how does short-term programming differ from producing code with a much longer expected life span? Over time, we need to be much more aware of the difference between “happens to work” and “is maintainable.” There is no perfect solution for identifying these issues. That is unfortunate, because keeping software maintainable for the long-term is a constant battle.
 
-那么，具体来说，短期编程与生成预期生命周期更长的代码有何不同？随着时间的推移，我们需要更多地意识到“正常工作”和“可维护”之间的区别。识别这些问题没有完美的解决方案。这是不幸的，因为保持软件的长期可维护性是一场持久战。
+那么，具体来说，短期编程与生成预期生命周期更长的代码有何不同？随着时间的推移，我们需要更多地意识到“碰巧有效”和“可维护”之间的区别。识别这些问题没有完美的解决方案。这是不幸的，因为保持软件的长期可维护性是一场持久战。
 
 ### Hyrum’s  Law 海勒姆定律
 
